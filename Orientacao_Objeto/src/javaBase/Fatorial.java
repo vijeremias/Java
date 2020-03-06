@@ -3,7 +3,7 @@ package javaBase;
 public class Fatorial {
 	public static void main(String[] args) {
 		int fatorial = 1;
-		for (int i = 1; i < 13; i++) {
+		for (int i = 1; i < 15; i++) {
 			fatorial *= i;
 			System.out.println("Fatorial de " + i + " = " + fatorial);
 		}
